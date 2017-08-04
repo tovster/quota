@@ -1,0 +1,111 @@
+/*What to style*/
+
+/*
+-Backgrounds of Scenes
+    -Welcome Screen Scenes
+        -Login
+        -Registration
+
+-Text Boxes
+    -On Success
+    -On Fail
+    -Normal
+
+-Buttons
+    -Add
+    -Remove
+    -Generic
+    -Key Button
+
+-Message Boxes
+    -Error
+    -Success
+    -Regular
+ */
+
+/* Backgrounds of Scenes */
+
+.welcomescreen-scene{
+    -fx-background-color: #3d348b;
+}
+
+/* Text Boxes */
+
+.textbox-normal{
+    -fx-font-family: "Segoe UI", "San Francisco UI", "Ubuntu", sans-serif;
+    -fx-font-size: 1em;
+
+    -fx-border-style: solid;
+    -fx-border-color: #FFFEFE;
+    -fx-border-radius: 3px;
+    -fx-border-width: 1px;
+}
+
+/* Buttons */
+
+/* login screen buttons */
+.button-login{
+    -fx-font-family: "Segoe UI", "San Francisco UI", "Ubuntu", sans-serif;
+    -fx-font-size: 1.5em;
+    -fx-font-weight: lighter;
+
+    -fx-background-color: linear-gradient(#7678ed 0%, #5355f4 100%);
+    -fx-text-fill: #FFFFFF;
+
+    -fx-border-style: solid;
+    -fx-border-color: #FFFEFE;
+    -fx-border-radius: 3px;
+    -fx-border-width: 1px;
+}
+
+.button-login:hover{
+    -fx-background-color: linear-gradient(#bcbeff 0%, #8e90ff 100%);
+    -fx-cursor: hand;
+}
+
+.button-login:pressed{
+    -fx-background-color: linear-gradient(#5959b1 0%, #393bad 100%);
+}
+
+/* Message Boxes */
+.message-error{
+    -fx-background-color: #ef9aae;
+
+    -fx-border-style: solid;
+    -fx-border-color: #ef476f;
+    -fx-border-radius: 0px;
+    -fx-border-width: 1px;
+
+    -fx-text-fill: #bd3858;
+
+    -fx-font-family: "Segoe UI", "San Francisco UI", "Ubuntu", sans-serif;
+    -fx-font-size: 1em;
+}
+
+.message-success{
+    -fx-background-color: #77d6bd;
+
+    -fx-border-style: solid;
+    -fx-border-color: #06d6a0;
+    -fx-border-radius: 0px;
+    -fx-border-width: 1px;
+
+    -fx-text-fill: #049b74;
+
+    -fx-font-family: "Segoe UI", "San Francisco UI", "Ubuntu", sans-serif;
+    -fx-font-size: 1em;
+}
+
+.message{
+    -fx-background-color: #ffffff;
+
+    -fx-border-style: solid;
+    -fx-border-color: #000000;
+    -fx-border-radius: 0px;
+    -fx-border-width: 1px;
+
+    -fx-text-fill: #0f0f0f;
+
+    -fx-font-family: "Segoe UI", "San Francisco UI", "Ubuntu", sans-serif;
+    -fx-font-size: 1em;
+}
