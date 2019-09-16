@@ -22,7 +22,10 @@ An easy to use personal finance/budgeting application built on Java 8 and JavaFX
 
 ### Installation
 
-- Work in Progress
+- Generate the required SQL tables and include the required connection data in the Quota global class (table format to be uploaded)
+- Compile using Maven and the include pom.xml
+- Make a distributable from there
+- (A distributable will not be released overall for the project due to the logistics of hosting an maintaining a MariaDB database)
 
 ## License
 
